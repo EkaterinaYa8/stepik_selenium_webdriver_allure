@@ -95,11 +95,9 @@ export PATH
 Скачать архив .tgz последней версии allure с сайта:
 http://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/
 
-# curl -o allure-2.6.0.tgz -Ls https://dl.bintray.com/qameta/generic/io/qameta/allure/allure/2.6.0/allure-2.6.0.tgz
-
         ```bash
         sudo tar -zxvf allure-2.13.0.tgz -C /opt/
-#        sudo ln -s /opt/allure-2.6.0/bin/allure /usr/bin/allure
+        sudo ln -s /opt/allure-2.6.0/bin/allure /usr/bin/allure
         allure --version
         ```
 или скачать архив --> разархивировать в папку --> добавить папку bin из содержимого, извлеченного из архива, в PATH. 
